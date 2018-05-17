@@ -6,7 +6,7 @@
 _________________________________________________________________________________________
 ## Material Utilizado:
 1. Brazo mecánico armable.
-4. Servomotores.
+4. Servomotores MG90S.
 1. Motor a pasos.
 1. Arduino UNO.
 1. Protoboar
@@ -25,6 +25,6 @@ ________________________________________________________________________________
 Los valores o parámetros a utilizar para el funcionamiento del brazo se definen a continuación.
 
 - Valor 1: Este valor corresponde al servomotor número 1 cuya función es acercarce o alejarse del objeto a tomar. **El rango de valores de este parámetro debe estar entre 90 y 130**.
-- Valor 2: Este valor corresponde al servomotor número 2 cuya  función se bajar hacia el objeto a tomar o subirlo. **El rango de valores de este parámetro debe estar entre 90 y 130**
-- Valor 3: Este valor corresponde al servomotor número 3 cuya función es abrir o cerrar la pinza con la que se toma el objeto. **El rango de valores de este parámetro debe estar entre 90 y 130** 
+- Valor 2: Este valor corresponde al servomotor número 2 cuya  función se bajar hacia el objeto a tomar o subirlo. **El rango de valores de este parámetro debe estar entre 50 y 90**
+- Valor 3: Este valor corresponde al servomotor número 3 cuya función es abrir o cerrar la pinza con la que se toma el objeto. **El rango de valores de este parámetro debe estar entre 70 y 110** 
 - Valor 4: Este valor corresponde al motor a pasos cuya función es hacer girar sobre su eje al brazo.

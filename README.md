@@ -7,7 +7,7 @@ ________________________________________________________________________________
 ## Material Utilizado:
 1. Brazo mecánico armable.
 4. Servomotores MG90S.
-1. Motor a pasos.
+1. Motor a pasos 28BYJ-48 (driver ULN2003).
 1. Arduino UNO.
 1. Protoboar
  Leds de colores.

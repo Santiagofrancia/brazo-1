@@ -9,13 +9,14 @@ ________________________________________________________________________________
 4. Servomotores MG90S.
 1. Motor a pasos 28BYJ-48 (driver ULN2003).
 1. Arduino UNO.
-1. Protoboar
- Leds de colores.
- cables conectores (macho-hembra , macho-macho).
+1. Protoboar.
+- Leds de colores.
+- cables conectores (macho-hembra , macho-macho).
+- Resistencias de 220 ohms.
 _________________________________________________________________________________________
 
 ## FUNCIONAMIENTO
-El archivo nombre.java provee una interfaz conectada mediante el puerto serial con el archivo Brazo4g.ino, la intefaz cuenta con un input que permite enviar los parámetros necesarios mediante el puerto serial al arduino para poner en funcionamiento el brazo.
+El archivo seleccionar.java provee una interfaz conectada mediante el puerto serial con el archivo Brazo4g.ino, la intefaz cuenta con un input que permite enviar los parámetros necesarios mediante el puerto serial al arduino para poner en funcionamiento el brazo.
 
 El arduino recibe un total de 4 instrucciones las cuales son ingresadas por el usuario en la interfaz java y son posteriormente ejecutadas de manera continua, repitiéndose hasta que el usuario detenga la ejecución.
 
